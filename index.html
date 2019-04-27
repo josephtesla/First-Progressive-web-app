@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Simple weight converter">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weight Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme color" content="#333" />
+  
+
+    <!-- Open Graph-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://weight-converterr.netlify.com/">
+    <meta property="og:title" content="Weight Converter">
+    <meta property="og:image" content="img/favicon.png">
+    <meta property="og:description" content="Simple weight converter">
+    <meta property="og:site_name" content="Weight Converter">
+    <!-- Next tags are optional but recommended -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+      <!-- Twitter cards-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Jossityler">
+  <meta name="twitter:creator" content="Jossityler">
+  <meta name="twitter:url" content="https://weight-converterr.netlify.com/">
+  <meta name="twitter:title" content="Weight Converter">
+  <meta name="twitter:description" content="Simple weight converter">
+  <meta name="twitter:image" content="img/favicon.png">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-4 text-center mb- heading">
+              Weight Converter
+            </h1>
+            <form>
+              <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="lbsInput" placeholder="Enter pounds.." required>
+              </div>
+            </form>
+            <div id="output">
+              <div class="card bg-primary mb-2">
+                <div class="card-block">
+                  <h4>Grams:</h4>
+                  <div id="gOutput"></div>
+                </div>
+              </div>
+    
+              <div class="card bg-success mb-2">
+                <div class="card-block">
+                  <h4>Kilograms:</h4>
+                  <div id="kgOutput"></div>
+                </div>
+              </div>
+    
+              <div class="card bg-danger mb-2">
+                <div class="card-block">
+                  <h4>Ounces:</h4>
+                  <div id="ozOutput"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script src="js/index.js"></script>
+  
+</body>
+</html>

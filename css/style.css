@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+body {
+  background-color: #333;
+  background-image: url('../img/trianglify.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto Mono', monospace;
+  margin-top : 70px;
+  color: #fff;
+}
+.card {
+  padding: 10px;
+}
+
+.heading {
+  color: black;
+}
